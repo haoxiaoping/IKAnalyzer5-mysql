@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-common-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-kuromoji-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-phonetic-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-backward-codecs-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-codecs-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-expressions-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-grouping-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-highlighter-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-join-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-memory-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-misc-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queries-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queryparser-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-spatial-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-suggest-5.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSpaces/1.sousuo/IKAnalyzer5-master/lib/mysql-connector-java-5.1.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_17"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,8 +1,23 @@
 #IKAnalyzer5
 
-支持Lucene 5.x和Solr5.x (测试版本为5.1.0)
+支持Lucene 5.x和Solr5.x 
 
 # 使用
 
-使用Eclipse编译生成jar包即可。或者直接下载我已经编译好的jar包[IKAnalyzer-5.1.0.jar](https://github.com/kweima/IKAnalyzer5/releases/download/v5.1.0/IKAnalyzer-5.1.0.jar "IKAnalyzer-5.1.0.jar")。[网盘下载](http://pan.baidu.com/s/1qWJq6ja)
+启用数据库配置：
+#是否启用读取数据库
+jdbc.isrun=1
+#连接字符串
+jdbc.url=jdbc:mysql://10.10.10.10:3306/fenci?useUnicode=true&amp;characterEncoding=GBK
+#数据库用户名
+jdbc.user=root
+#数据库密码
+jdbc.password=root
+#查询字符串，使用String.format在表中格式化循环语句
+jdbc.reload.sql=SELECT word_name,id FROM nlp_dict_word where id>%s order by id limit %s
+#单词循环获取的条数
+jdbc.reload.sqlsize=1000
+#定时多长时间执行一次
+jdbc.reload.interval=3600000
+
 # IKAnalyzer5-mysql
